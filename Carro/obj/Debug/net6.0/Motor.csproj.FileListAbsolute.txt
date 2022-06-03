@@ -1,0 +1,15 @@
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.csproj.AssemblyReference.cache
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.AssemblyInfoInputs.cache
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.AssemblyInfo.cs
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.csproj.CoreCompileInputs.cache
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\bin\Debug\net6.0\Motor.exe
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\bin\Debug\net6.0\Motor.deps.json
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\bin\Debug\net6.0\Motor.runtimeconfig.json
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\bin\Debug\net6.0\Motor.dll
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\bin\Debug\net6.0\Motor.pdb
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.dll
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\refint\Motor.dll
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.pdb
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\Motor.genruntimeconfig.cache
+C:\Users\Dalva\Desktop\Projeto OOP\Carro\obj\Debug\net6.0\ref\Motor.dll
