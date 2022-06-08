@@ -5,12 +5,13 @@ namespace _Car;
 
 public class Management
 {
+    // Atributos privados
     private string manufacturer; 
     private string model;
-    private bool engineOn;
     private int year;
     private int velocity;
-
+    private bool engineOn;
+    // Métodos Construtores
     public Management(string manufacturer, string model, bool engineOn, int year, int velocity)
     {
         this.manufacturer=manufacturer;
@@ -19,6 +20,40 @@ public class Management
         this.year=year;
         this.velocity=velocity;
     }
+    public Management(string manufacturer, string model, int year)
+    {
+        this.manufacturer=manufacturer;
+        this.model=model;
+        this.year=year;
+        this.velocity=0;
+        this.engineOn=false;
+    }
+    // Métodos 
+    public void details()
+    {
+        Console.WriteLine("-----Carro-----");
+        Console.WriteLine("Fabricante: " + this.manufacturer);
+        Console.WriteLine("Modelo: " + this.model);
+        Console.WriteLine("Ano: " + this.year + "\n");
+    }
+    public string engineSituation()
+    {
+        Console.WriteLine("-----------------");
+        if(this.engineOn == true)
+            return this.model + " --> motor LIGADO \n";
+        return this.model + " --> motor DESLIGADO \n";
+    }
+    public string startEngine()
+    {
+        Console.WriteLine("-----------------");
+        if(this.engineOn == true)
+            return "O motor do " + this.model + " já estava ligado \n";
+        this.engineOn = true;
+        Console.WriteLine("Ligando motor...");
+        Thread.Sleep(2000);
+        return "O motor do " + this.model + " foi ligado agora \n";    
+    }
+    // Gets e Sets
     public string Manufacturer
     {
         get{return manufacturer;}
